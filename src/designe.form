@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="designe">
+  <grid id="27dc6" binding="PanelMain" layout-manager="GridLayoutManager" row-count="5" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="105" y="20" width="438" height="362"/>
+    </constraints>
+    <properties>
+      <background color="-2637872"/>
+    </properties>
+    <border type="none" title=""/>
+    <children>
+      <component id="92101" class="javax.swing.JButton" binding="addProductButton" default-binding="true">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-4229734"/>
+          <foreground color="-15855862"/>
+          <icon value="icons8-ajouter-24.png"/>
+          <text value="AddProduct"/>
+        </properties>
+      </component>
+      <component id="2ad80" class="javax.swing.JButton" binding="supprimerButton">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-4229734"/>
+          <foreground color="-15855862"/>
+          <icon value="icons8-supprimer-30.png"/>
+          <text value="Supprimer"/>
+        </properties>
+      </component>
+      <component id="3a478" class="javax.swing.JButton" binding="updateProductButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-4229734"/>
+          <foreground color="-15855862"/>
+          <icon value="icons8-rafraîchir-30.png"/>
+          <text value="UpdateProduct"/>
+        </properties>
+      </component>
+      <component id="e502d" class="javax.swing.JButton" binding="getProductButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-4229734"/>
+          <foreground color="-15855862"/>
+          <icon value="icons8-recevoir-30.png"/>
+          <text value="GetProduct"/>
+        </properties>
+      </component>
+      <component id="59fba" class="javax.swing.JButton" binding="getAllProductButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-4229734"/>
+          <foreground color="-15855862"/>
+          <icon value="icons8-all-32.png"/>
+          <text value="Get All Product"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
